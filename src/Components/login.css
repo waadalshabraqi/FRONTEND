@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex; 
+    height: 100vh;
+  }
+  
+  .f1 {
+    position: absolute;
+    width: 1020px;
+    height: 783px;
+    top: -30px;
+    right: 300px;
+    left:0;
+    background-image: url('https://piktochart.com/wp-content/uploads/2023/04/large-29.jpg');
+    background-repeat: no-repeat;
+    background-size: 1050px 783px;
+  }
+  
+  .f2 {
+    position: absolute;
+    width: 400px;
+    height: 765px;
+    top: -12px;
+    right: 0;
+    background: #FFFFFF;
+    padding: 50px;
+  }
+  
+  .button1{
+   /* Primary-button-40px */
+  
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 24px;
+  
+  width: 300px;
+  height: 40px;
+  left: calc(50% - 360px/2);
+  top: 275.38px;
+  
+  /* System-Blue (#007AFF) */
+  background: #007AFF;
+  border-radius: 6px;
+  }
+  
+  .Signupnow ,.Forgetpassword{
+    font-size: 15px;
+    font-family: 'Alatsi';
+  }
+  
+  label{
+    font-size: 13px;
+    font-family: 'Alatsi';
+   padding-top: 30px;
+  padding-right:200px ;
+  }
+  
+  .title2{
+    font-size: 20px;
+    font-family: 'Alatsi';
+    padding-top: 30px;
+    margin-left: -80px;
+    width: auto;
+  
+  }
+  
+  .title{
+    font-size: 20px;
+    font-family: 'Alatsi';
+    padding-right: 12px;
+    padding-top: 30px;
+  }
+  
+  
+  
+  p{
+    position: absolute;
+    width: 195px;
+    height: 20px;
+    left: 100px;
+    top: 550px;
+    
+    font-family: 'Alatsi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    color: #1A1A1A;
+    
+    
+    }
+    .button{
+      position: absolute;
+      width: 400px;
+      top: 15%; 
+      left: 200px; 
+      transform: translate(-50%, -50%);    
+      }
+      .button input{
+      
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+      
+      position: absolute;
+      width: 300px;
+      height: 40px;
+      left: calc(50% - 300px/2);
+      top: 375px;
+      background: #007AFF;
+      border-radius: 6px;
+      border-color: #007AFF;
+      color:#FFFFFF;
+      
+      }
+  
+      .pass, #login {
+        background-color: gainsboro;
+        border: 1px solid gainsboro;
+        border-radius: 6px;
+        width: 300px;
+        height: 48px;
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+        
+        
+        }
+        h5{
+          position: absolute;
+          width: 120px;
+          height: 20px;
+          top: 370px;
+          padding-left:18px;
+          padding-top: 80px;
+          
+          font-family: 'Alatsi';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 20px;
+          letter-spacing: 0.3px;
+          color: #007AFF;
+          
+    }
+  
